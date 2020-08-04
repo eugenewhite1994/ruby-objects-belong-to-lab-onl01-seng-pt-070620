@@ -1,7 +1,8 @@
 class Artist 
   attr_accessor :name 
-  binding.pry
+  
   def initialize(name)
+    binding.pry
     @name = name 
   end 
   
