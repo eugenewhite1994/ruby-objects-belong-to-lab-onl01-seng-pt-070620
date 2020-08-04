@@ -1,10 +1,11 @@
-binding.pry
+
 class Artist 
   attr_accessor :name 
   
-  def initialize
+  def initialize(name)
    
     @name = name 
+    binding.pry
   end 
   
   def name 
