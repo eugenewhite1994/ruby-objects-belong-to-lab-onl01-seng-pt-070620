@@ -11,4 +11,4 @@ class Artist
   end 
   
 end 
-
+Artist.new("Bob Dylan")
